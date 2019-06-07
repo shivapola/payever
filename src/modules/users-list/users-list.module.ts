@@ -12,7 +12,7 @@ import { UsersListComponent } from './components/users-list/users-list.component
   declarations: [UsersListComponent],
   imports: [
     CommonModule,
-    CoreModule,
+    CoreModule.forRoot(),
     UsersListRoutingModule,
     MatPaginatorModule,
     MatTableModule
